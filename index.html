@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<br>
+<br>
+<br>
+<body>
+<style>
+body {
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm309-adj-05.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=7a3a0b293691f2d3fb739cb7821b3948');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+    <h2>This is HTML forms Example in ERP Next</h2>
+    <form action="erpnext.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Rate: <input type="number" name="myRate">
+        </div>
+        <br>
+        <div>
+            Are you interesed to buy this product?: <input type="checkbox" name="myInterest" checked>
+        </div>
+        <br>
+        <div>
+            Gender: <input type="radio" name="myGender">Male <input type="radio" name="myGender">Female
+             <input type="radio" name="myGender">Other
+        </div>
+        <br>
+        <div>
+            <label for="product">Product</label>
+            <select name="myProduct" id="product">
+                <option value="sony 1">Sony Product 1</option>
+                <option value="sony 2" selected>Sony Product 2</option>
+                <option value="sony 3">Sony Product 3</option>
+                <option value="sony 4">Sony Product 4</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            For Selected Product Your Feedback Is Important To Us: <br><textarea name="myText" cols="60" rows="8"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
